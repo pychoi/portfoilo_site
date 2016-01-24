@@ -10,6 +10,7 @@ body {
     font-weight: 300;
     background-color: #fafafa;
     margin-bottom: 60px;
+    z-index: 0;
 }
 
 p {
@@ -45,11 +46,12 @@ div.container {
 
 /* Logo Style */
 .site-header .logo {
-    font-size:30px;
+    font-size: 230%;
     font-weight: 100;
     line-height: 28px;
     letter-spacing: -1.6px;
     float: left;
+    z-index: 999;
 }
 
 /* Navigation Menu */
@@ -59,13 +61,13 @@ div.container {
     margin-bottom: 50px;
 }
 
-.site-nav ul {
+.desktop-menu ul {
     margin-top: 80px;
     padding: 0;
     float: right;
 }
 
-.site-nav ul li {
+.desktop-menu ul li {
     list-style: none;
     display: inline;
     text-transform: uppercase;
@@ -74,18 +76,16 @@ div.container {
     font-weight: 300;
 }
 
-.site-nav ul li:last-child {
+.desktop-menu ul li:last-child {
     margin-right: 0;
 }
 
-.site-nav ul li a:hover {
+.desktop-menu ul li a:hover {
     border-bottom: 1px solid #ff0000;
 }
 
-.site-nav ul li.current-menu-item a:link,
-.site-nav ul li.current-menu-item a:visited,
-.site-header nav ul li.current-page-ancestor a:link,
-.site-header nav ul li.current-page-ancestor a:visited {
+.desktop-menu ul li.active a:link,
+.desktop-menu ul li.active a:visited {
     border-bottom: 1px solid #ff0000;
 }
 
@@ -101,7 +101,7 @@ div.container {
 
 .portfolio a:hover {
     color: #ffffff;
-    background-color: rgba(136, 136, 136, 0.9);
+    background-color: rgba(136, 136, 136, 0.93);
 }
 
 .open-arms-banner {
@@ -109,6 +109,7 @@ div.container {
     width: 80%;
     background-image: url('../images/open_arms/open-arms-banner.jpg');
     background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .graces-kitchen-banner {
@@ -116,6 +117,7 @@ div.container {
     width: 80%;
     background-image: url('../images/graces_kitchen/graces-kitchen-banner.jpg');
     background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .pui-and-rods-wedding-banner {
@@ -123,6 +125,7 @@ div.container {
     width: 80%;
     background-image: url('../images/pui_and_rod/puiandrod-banner.jpg');
     background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 div.visit-site {
