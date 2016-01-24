@@ -7,7 +7,6 @@ myApp.controller('MainController', ['$scope', '$location', function($scope, $loc
     };
 
     $scope.toggleMenu = function() {
-        console.log("showMenu", $scope.showMenu);
         $scope.showMenu = !$scope.showMenu;
     };
 
