@@ -1,0 +1,21 @@
+{
+  "name": "pui-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Pui Y Choi",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-route": "^1.4.9",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "font-awesome": "^4.5.0",
+    "path": "^0.12.7",
+    "pg": "^4.4.3"
+  }
+}
