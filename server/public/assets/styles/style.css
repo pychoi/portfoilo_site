@@ -23,6 +23,7 @@ a:visited {
     color: #555;
     text-decoration: none;
     outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 /*Footer Styles*/

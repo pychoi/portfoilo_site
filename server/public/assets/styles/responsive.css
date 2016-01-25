@@ -19,6 +19,8 @@
         right: 11vw;
         cursor: pointer;
         z-index: 999;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+
     }
 
     .hamburger.isOpen .top-bar {
