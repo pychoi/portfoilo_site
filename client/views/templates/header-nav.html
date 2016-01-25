@@ -1,0 +1,24 @@
+<h1 class="logo clearfix"><a href="#about">PUI<br/>YEE<br/>CHOI<br/></a></h1>
+
+<nav class="site-nav clearfix">
+    <div class="desktop-menu">
+        <ul class="menu-list">
+            <li ng-class="{active: isActive('/main')}"><a href="#about">about</a></li>
+            <li ng-class="{active: isActive('/portfolio')}"><a href="#portfolio">portfolio</a></li>
+            <li ng-class="{active: isActive('/contact')}"><a href="#contact">contact</a></li>
+        </ul>
+    </div>
+
+    <div class="hamburger" ng-click="toggleMenu()" ng-class="{isOpen: showMenu}">
+        <span class="top-bar bar"></span>
+        <span class="middle-bar bar"></span>
+        <span class="bottom-bar bar"></span>
+    </div>
+
+    <ul class="hamburger-list" ng-if="showMenu">
+        <li><a ng-click="toggleMenu()" href="#about">about</a></li>
+        <li><a ng-click="toggleMenu()" href="#portfolio">portfolio</a></li>
+        <li><a ng-click="toggleMenu()" href="#contact">contact</a></li>
+    </ul>
+
+</nav>

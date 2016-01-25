@@ -1,4 +1,4 @@
-myApp.controller('MainController', ['$scope', '$location', function($scope, $location) {
+myApp.controller('MainController', ['$scope', '$location', '$window', function($scope, $location, $window) {
 
     $scope.showMenu = false;
 
@@ -10,6 +10,9 @@ myApp.controller('MainController', ['$scope', '$location', function($scope, $loc
         $scope.showMenu = !$scope.showMenu;
     };
 
-
+    $window.onscroll = function(){
+        $scope.showMenu = false;
+        $scope.$apply();
+    };
 
 }]);

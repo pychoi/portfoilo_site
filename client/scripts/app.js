@@ -29,12 +29,3 @@ myApp.config(['$routeProvider', function($routeProvider){
         .otherwise('/main');
 
 }]);
-
-myApp.directive("scroll", function ($window) {
-    return function(scope, element, attrs) {
-        angular.element($window).bind("scroll", function() {
-            scope.showMenu = false;
-            scope.$apply();
-        });
-    };
-});
