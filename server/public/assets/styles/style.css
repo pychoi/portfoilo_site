@@ -9,7 +9,7 @@ body {
     color: #333;
     font-weight: 300;
     background-color: #fafafa;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     z-index: 0;
 }
 
@@ -26,11 +26,10 @@ a:visited {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-/*Footer Styles*/
 footer {
     position: absolute;
     bottom: 0;
-    height: 70px;
+    height: 90px;
     width: 98%;
     text-align: center;
 }
@@ -39,7 +38,7 @@ footer {
 
 div.container {
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 20px 50px 20px;
     width: 100%;
     max-width: 800px;
     min-height: 100%;
@@ -160,7 +159,9 @@ div.project-description {
 }
 
 .project-subtitle {
+    line-height: 1.65em;
     border-bottom: 1px solid #888;
+    font-size: 14px;
     font-weight: 400;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -202,14 +203,24 @@ div.project-description {
 
 
 /*Footer styles*/
+
 .site-footer p {
-    margin-top: 40px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
     text-transform: uppercase;
     font-size: 12px;
 }
 
-.site-footer i {
+.site-footer a {
+    color: #333;
+    margin-top: 30px;
     display: inline-block;
+    margin-right: 10px;
+}
+
+.site-footer a:last-of-type {
+    margin-right: 0;
 }
 
 

@@ -92,14 +92,11 @@
 @media (max-width:770px) {
     .portfolio a:link,
     .portfolio a:visited {
-        padding: 30px 0;
-    }
-}
-
-@media (max-width:770px) {
-    .portfolio a:link,
-    .portfolio a:visited {
         padding: 35px 0;
+    }
+
+    .open-arms-banner, .graces-kitchen-banner, .pui-and-rods-wedding-banner {
+        width: 90%;
     }
 }
 
@@ -110,9 +107,7 @@
     }
 
     .about p {
-
         width: 90%;
-
     }
 
     .portfolio a:link,
